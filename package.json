@@ -1,0 +1,22 @@
+{
+  "name": "isnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@types/node": "^14.0.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
