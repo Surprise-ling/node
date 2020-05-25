@@ -1,2 +1,1 @@
-use Stream edit 12
-END.
+写入的string

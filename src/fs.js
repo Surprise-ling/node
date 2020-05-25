@@ -35,6 +35,7 @@ const fss = () => {
         console.log('文件已被保存');
     });
 
+    // 获取文件信息
     fs.stat('./txt/text.txt',(err,data) => {
         if(err) {
             throw err;
@@ -49,6 +50,32 @@ const fss = () => {
                 console.log('modified time:' + data.mtime);
             }
         }
+    });
+    // 删除指定文件
+    // fs.unlink('txt/test.txt', (err) => {
+    //     if (err) {
+    //         throw err;
+    //     }
+    //     console.log('文件删除成功');
+    // });
+    
+    // 创建目录
+    // { recursive: true }不管创建的目录是否存在
+    fs.mkdir('txt/test', { recursive: true }, (err) => { // txt作为上一级目录，必须存在
+        if (err) {
+            throw err;
+        }
+        console.log('文件创建成功');
+    });
+
+    // rmdir 删除目录
+
+    // 查看指定目录下的文件
+    fs.readdir('txt/test', (err, files) => {
+        if (err) {
+            throw err;
+        }
+        files.forEach(e => console.log('该目录有以下文件' + e));
     });
 };
 export default fss;
