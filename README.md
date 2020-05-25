@@ -1,4 +1,5 @@
 # node
 
 运行
-npx babel-node src/world.js
+browser -> npm run dev
+node -> npx babel-node src/test.js

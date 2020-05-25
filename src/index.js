@@ -1,8 +1,5 @@
-// import greet from './hello';
+import greet from './hello';
 // const greet = require('./hello')
-// import fss from './fs'
-import streamm from './stream'
 
-// greet('你今年多大？')
-// fss()
-streamm()
+greet('你今年多大？')
+console.log('------------' + process.env.NODE_ENV)

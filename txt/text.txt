@@ -1,2 +1,2 @@
-使用Stream写入文本数据...12
+use Stream edit 12
 END.

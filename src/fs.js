@@ -14,6 +14,7 @@ const fss = () => {
         if(err) {
             console.log(err)
         } else {
+            console.log('二进制图片为:')
             console.log(data)
             // 解析图片是二进制文件
         }
