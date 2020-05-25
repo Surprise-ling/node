@@ -1,4 +1,4 @@
 // import fss from './fs'
-import streamm from './stream'
+import streamm from './stream';
 // fss()
-streamm()
+streamm();
