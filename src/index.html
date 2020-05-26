@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello</h1>
+    <!-- <form action="http://127.0.0.1:8081/process" method="GET"> -->
+    <!-- <form action="http://127.0.0.1:8081/process" method="POST"> -->
+    <form action="http://127.0.0.1:8081/file" method="POST" enctype="multipart/form-data">
+    name: <input type="text" name="name"><br>
+    password: <input type="password" name="password"><br>
+    file: <input type="file" name="image">
+    <input type="submit" value="提交">
+    </form>
 </body>
 </html>
