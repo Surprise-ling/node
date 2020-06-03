@@ -33,7 +33,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1"
   },
   "config": {
     "commitizen": {
