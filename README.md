@@ -13,6 +13,7 @@
 # public目录是vue-element-ui的项目打包文件
 
 # 运行服务器项目
+# cd到vue目录
 -> npm start
 
 运行地址localhost:3000
